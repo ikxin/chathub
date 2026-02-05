@@ -134,7 +134,7 @@ export const useDashboardData = (userState, userDispatch, statusState) => {
     }
 
     const username = userState?.user?.username || '';
-    return `👋${greeting}，${username}`;
+    return `${greeting} ${username}`;
   }, [t, userState?.user?.username]);
 
   // ========== 回调函数 ==========

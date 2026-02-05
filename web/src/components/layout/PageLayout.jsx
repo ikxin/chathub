@@ -181,6 +181,7 @@ const PageLayout = () => {
             flex: '1 1 auto',
             display: 'flex',
             flexDirection: 'column',
+            borderLeft: '1px solid var(--semi-color-border)',
           }}
         >
           <Content
