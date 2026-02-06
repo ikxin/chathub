@@ -19,7 +19,15 @@ For commercial licensing, please contact support@quantumnous.com
 
 export default {
   content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
-  blocklist: ['!rounded-2xl'],
+  blocklist: [
+    '!rounded-xl',
+    '!rounded-2xl',
+    '!rounded-3xl',
+    '!rounded-lg',
+    '!rounded-full',
+    '!rounded-md',
+    '!rounded-sm',
+  ],
   theme: {
     colors: {
       'semi-color-white': 'var(--semi-color-white)',

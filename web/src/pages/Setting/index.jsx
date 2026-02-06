@@ -171,7 +171,7 @@ const Setting = () => {
     panes.push({
       tab: (
         <span style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
-          <MoreHorizontal size={18} />
+          <Settings size={18} />
           {t('其他设置')}
         </span>
       ),
