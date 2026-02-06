@@ -860,7 +860,7 @@ html.dark .with-pastel-balls::before {
 }
 
 /* ==================== 自定义圆角样式 ==================== */
-.semi-radio,
+/* .semi-radio,
 .semi-tagInput,
 .semi-input-textarea-wrapper,
 .semi-navigation-sub-title,
@@ -874,4 +874,4 @@ html.dark .with-pastel-balls::before {
 .semi-button,
 .semi-datepicker-range-input {
   border-radius: 10px !important;
-}
+} */
